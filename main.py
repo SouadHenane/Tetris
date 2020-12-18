@@ -373,8 +373,6 @@ def main():
     pygame.display.update()
     pygame.time.delay(2000)
 
-
-
 def main_menu():
     run = True
     while run:
@@ -388,7 +386,6 @@ def main_menu():
             if event.type == pygame.KEYDOWN:
                 main()
     pygame.quit()
-
 
 
 win = pygame.display.set_mode((s_width, s_height))
